@@ -5,5 +5,5 @@ metadata:
   description: A collection of all Backstage example systems
 spec:
   targets:
-    - ./systems/products-system.yaml
-    - ./systems/orders-portal-system.yaml
+    - ./systems/grants-system.yaml
+    - ./systems/payments-system.yaml

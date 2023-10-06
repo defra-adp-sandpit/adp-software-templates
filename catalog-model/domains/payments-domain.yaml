@@ -2,14 +2,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: orders
-  description: Everything related to orders
-  title: Orders
+  name: payments
+  description: Everything related to Payments
+  title: FCP Payments
   links:
-    - url: http://example.com/domain/orders/
+    - url: http://example.com/domain/payments/
       title: Domain Readme
     - url: http://example.com/domains/orders/dashboard
       title: Domain Metrics Dashboard
       icon: dashboard
 spec:
-  owner: team-a
+  owner: fcp-payments

@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: orders-db
-  description: Stores orders details
+  name: grants-db
+  description: Stores grants details
 spec:
   type: database
-  owner: team-a
-  system: orders-portal
+  owner: ffc-grants
+  system: grants-portal

@@ -5,5 +5,5 @@ metadata:
   description: A collection of all Backstage example domains
 spec:
   targets:
-    - ./domains/products-domain.yaml
-    - ./domains/orders-domain.yaml
+    - ./domains/grants-domain.yaml
+    - ./domains/payments-domain.yaml
