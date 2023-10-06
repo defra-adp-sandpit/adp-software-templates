@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: defra
+  description: DEFRA
+  links:
+    - url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/
+      title: Website
+
+spec:
+  type: organization
+  profile:
+    displayName: DEFRA
+    email: info@example.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./infrastructure-group.yaml
+    - ./products-group.yaml
+    - ./orders-group.yaml
+    - ./team-a-group.yaml
+    - ./team-b-group.yaml
+    - ./team-c-group.yaml
+    - ./team-d-group.yaml

@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: orders
+  description: Everything related to orders
+  title: Orders
+  links:
+    - url: http://example.com/domain/orders/
+      title: Domain Readme
+    - url: http://example.com/domains/orders/dashboard
+      title: Domain Metrics Dashboard
+      icon: dashboard
+spec:
+  owner: team-a

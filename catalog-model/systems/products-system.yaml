@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: products
+  description: Everything related to products
+  tags:
+    - portal
+    - api
+spec:
+  owner: team-b
+  domain: products
