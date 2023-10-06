@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: ffc-grants
+  name: fcp-grants
   description: FCP Grants
 spec:
   type: team
