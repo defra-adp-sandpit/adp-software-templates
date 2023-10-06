@@ -22,10 +22,8 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./infrastructure-group.yaml
-    - ./products-group.yaml
-    - ./orders-group.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
-    - ./team-c-group.yaml
-    - ./team-d-group.yaml
+    - ./fcp.yaml
+    - ./fcp-payments.yaml
+    - ./fcp-grants.yaml
+    - ./fcp-documents.yaml
+    - ./fcp-vet-visits.yaml
