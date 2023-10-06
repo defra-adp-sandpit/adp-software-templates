@@ -5,5 +5,5 @@ metadata:
   description: Farming and Countryside Programme (FCP)
 spec:
   type: department
-  parent: DEFRA
-  children: [products-group, orders-group]
+  parent: defra
+  children: [fcp-grants, fcp-payments, fcp-documents, fcp-vet-visits]
