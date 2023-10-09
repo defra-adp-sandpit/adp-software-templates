@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: defra
-  description: DEFRA
+  title: DEFRA
+  description: UK government department responsible for safeguarding our natural environment, supporting our food & farming industry, and sustaining a thriving rural economy.
   links:
     - url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/
       title: Website
@@ -12,7 +13,7 @@ spec:
   profile:
     displayName: DEFRA
     email: info@example.com
-    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+    picture: https://avatars.githubusercontent.com/u/5528822?s=200&v=4
   children: [fcp]
 ---
 apiVersion: backstage.io/v1alpha1
