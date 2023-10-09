@@ -5,5 +5,5 @@ metadata:
   description: Stores grants details
 spec:
   type: database
-  owner: ffc-grants
+  owner: fcp-grants
   system: grants-portal
