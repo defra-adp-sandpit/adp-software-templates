@@ -3,18 +3,19 @@ kind: Template
 metadata:
   name: create-react-app-template
   title: Create React App Template
-  description: Create a new CRA website project
+  description: Create a new react project
   tags:
     - react
-    - cra
+    - recommended
 spec:
-  owner: web@example.com
-  type: website
+  owner: defra-demo-team
+  type: service
   parameters:
     - title: Provide some simple information
       required:
         - component_id
         - owner
+        - project_name
       properties:
         component_id:
           title: Name
@@ -33,6 +34,10 @@ spec:
           ui:options:
             allowedKinds:
               - Group
+        project_name:
+          title: Name
+          type: string
+          description: Name of the project
     - title: Choose a location
       required:
         - repoUrl
@@ -44,6 +49,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+              - dev.azure.com
   steps:
     - id: template
       name: Fetch Skeleton + Template
@@ -55,15 +61,17 @@ spec:
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
+          artifact_id: ${{ parameters.component_id }}
+          project_name: ${{ parameters.project_name }}
           destination: ${{ parameters.repoUrl | parseRepoUrl }}
           owner: ${{ parameters.owner }}
+          http_port: 8080
 
     - id: publish
       name: Publish
       action: publish:github
       input:
-        allowedHosts:
-          - github.com
+        allowedHosts: ["github.com"]
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
