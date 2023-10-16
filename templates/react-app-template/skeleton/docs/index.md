@@ -1,4 +1,4 @@
-## ${{ values.component_id }}
+## ${{ values.name }}
 
 ${{ values.description }}
 
@@ -25,4 +25,4 @@ See also <https://www.mkdocs.org/user-guide/configuration/>.
 
 ## Support
 
-That's it. If you need support, make an issue in this repository.
+That's it. If you need support, reach out in [#docs-like-code](https://discord.com/channels/687207715902193673/714754240933003266) on Discord.
