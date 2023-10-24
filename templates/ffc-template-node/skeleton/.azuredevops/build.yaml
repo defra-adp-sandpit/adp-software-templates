@@ -39,7 +39,7 @@ extends:
   template: /pipelines/common-app-build.yaml@DEFRA-ADPPipelineCommon
   parameters:
     projectName: "FFCTemplateNode"
-    deployFromFeature: ${{ parameters.deployFromFeature }}
+    deployFromFeature: {% raw %}${{ parameters.deployFromFeature }}{% endraw %}
     appBuildConfig:
       appFrameworkType: "nodejs"    
       projectPath: "./package.json"
