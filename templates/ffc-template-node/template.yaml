@@ -48,16 +48,14 @@ spec:
         component_type:
           title: Component Type
           type: string
-          description: Select the type of this component. Allowed values - Service (a backend service or API), Web (a web application), Library (a library or package that can be consumed by other applications)
-          default: service
+          description: Select the type of this component. Allowed values - Backend API (a backend service or API), Frontend UI (a web application)
+          default: backend
           enum:
-            - service
-            - website
-            - library
+            - backend
+            - frontend
           enumNames:
-            - Service
-            - Web
-            - Library
+            - Backend API
+            - Frontend UI
 
         component_lifecycle:
           title: Component Lifecycle
@@ -68,14 +66,10 @@ spec:
             - discovery
             - alpha
             - beta
-            - live
-            - retirement
           enumNames:
             - Discovery
             - Alpha
             - Beta
-            - Live
-            - Retirement
 
         owner:
           title: Owner
@@ -88,6 +82,7 @@ spec:
                 spec.type: team
 
     - title: Git Repository
+      description: To encourage coding in the open the repository will be public by default. Refer to the [GDS service manual](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) for more information.
       required:
         - repoUrl
       properties:
@@ -136,7 +131,7 @@ spec:
         dismissStaleReviews: true
         requiredConversationResolution: true
         requiredStatusCheckContexts: []
-        repoVisibility: internal
+        repoVisibility: public
         defaultBranch: main
         gitAuthorEmail: ${{ user.entity.spec.profile.email }}
         gitAuthorName: ${{ user.entity.metadata.name }}
