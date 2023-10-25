@@ -68,7 +68,7 @@ scripts/test -w
 
 ## CI pipeline
 
-This service uses the [FFC CI pipeline](https://github.com/DEFRA/ffc-jenkins-pipeline-library)
+This service uses the [ADP common pipeline](https://github.com/DEFRA/adp-pipeline-common)
 
 ## Licence
 
