@@ -9,5 +9,3 @@ spec:
     - ../templates/dotnet-template/template.yaml
     - ../templates/create-empty-project/template.yaml
     - ../templates/react-app-template/template.yaml
-
-    
