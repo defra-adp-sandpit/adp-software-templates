@@ -50,7 +50,7 @@
             "title": "Typescript",
             "description": "Long description for Typescript",
             "key": "typescript",
-            "url": "#",
+            "url": "#typescript",
             "quadrant": "languages",
             "timeline": [
                 {
@@ -72,7 +72,29 @@
             "title": "Javascript",
             "description": "Long description for Javascript",
             "key": "javascript",
-            "url": "#",
+            "url": "#javascript",
+            "quadrant": "languages",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-02-06",
+                    "description": "Long description for trial"
+                },
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-02-08",
+                    "description": "Long description for adopt"
+                }
+            ]
+        },
+        {
+            "id": "dotnet",
+            "title": ".NET",
+            "description": "Long description for .NET",
+            "key": "dotnet",
+            "url": "#dotnet",
             "quadrant": "languages",
             "timeline": [
                 {
