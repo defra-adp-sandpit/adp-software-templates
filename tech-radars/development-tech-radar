@@ -22,22 +22,22 @@
         {
             "id": "adopt",
             "name": "ADOPT",
-            "color": "#93c47d"
+            "color": "#5BA300"
         },
         {
             "id": "trial",
             "name": "TRIAL",
-            "color": "#93d2c2"
+            "color": "#009EB0"
         },
         {
             "id": "assess",
             "name": "ASSESS",
-            "color": "#fbdb84"
+            "color": "#C7BA00"
         },
         {
             "id": "hold",
             "name": "HOLD",
-            "color": "#efafa9"
+            "color": "#E09B96"
         }
     ],
     "entries": [
