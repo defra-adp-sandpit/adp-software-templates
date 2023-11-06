@@ -51,7 +51,7 @@
             "description": "Long description for Typescript",
             "key": "typescript",
             "url": "#",
-            "quadrant": "frameworks",
+            "quadrant": "languages",
             "timeline": [
                 {
                     "moved": 0,
