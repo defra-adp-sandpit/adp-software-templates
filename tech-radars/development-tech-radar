@@ -1,43 +1,47 @@
 {
-    "title": "Title of your Tech radar",
+    "title": "Development Technology Radar for Defra's Azure Developer Platform",
     "quadrants": [
-        {
-            "id": "1",
-            "name": "Bottom right"
+        {            
+            "id": "infrastructure",
+            "name": "Infrastructure"
         },
         {
-            "id": "2",
-            "name": "Bottom left"
+            "id": "frameworks",
+            "name": "Frameworks"
         },
         {
-            "id": "3",
-            "name": "Top left"
+            "id": "languages",
+            "name": "Languages"
         },
         {
-            "id": "4",
-            "name": "Top right"
+            "id": "process",
+            "name": "Process"
         }
     ],
     "rings": [
         {
             "id": "adopt",
             "name": "ADOPT",
-            "color": "#5BA300"
+            "color": "#5BA300",
+            "description": "This technology is recommended for use by the majority of teams with a specific use case."
         },
         {
             "id": "trial",
             "name": "TRIAL",
-            "color": "#009EB0"
+            "color": "#009EB0",
+            "description": "This technology has been evaluated for specific use cases and has showed clear benefits. Some teams adopt it in production, although it should be limited to low-impact projects as it might incur a higher risk."
         },
         {
             "id": "assess",
             "name": "ASSESS",
-            "color": "#C7BA00"
+            "color": "#C7BA00",
+            "description": "This technology has the potential to be beneficial for the company. Some teams are evaluating it and using it in experimental projects. Using it in production comes with a high cost and risk due to lack of in-house knowledge, maintenance, and support."
         },
         {
             "id": "hold",
             "name": "HOLD",
-            "color": "#E09B96"
+            "color": "#E09B96",
+            "description": "We don’t want to further invest in this technology or we evaluated it and we don’t see it as beneficial for the company. Teams should not use it in new projects and should plan on migrating to a supported alternative if they use it for historical reasons. For broadly adopted technologies, the Radar should refer to a migration path to a supported alternative."
         }
     ],
     "entries": [
