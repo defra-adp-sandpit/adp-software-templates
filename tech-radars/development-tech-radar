@@ -45,27 +45,6 @@
         }
     ],
     "entries": [
-        {
-            "id": "typescript",
-            "title": "Typescript",
-            "description": "Long description for Typescript",
-            "key": "typescript",
-            "url": "#",
-            "quadrant": "languages",
-            "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "trial",
-                    "date": "2022-02-06",
-                    "description": "Long description for trial"
-                },
-                {
-                    "moved": 1,
-                    "ringId": "adopt",
-                    "date": "2022-02-08",
-                    "description": "Long description for adopt"
-                }
-            ]
-        }
+    
     ]
 }
