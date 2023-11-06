@@ -109,6 +109,12 @@
                     "date": "2022-02-08",
                     "description": "Long description for adopt"
                 }
+            ],
+            "links": [
+                {
+                    "title": "Link to .NET",
+                    "url": "https://dotnet.microsoft.com/"
+                }
             ]
         }
     ]
