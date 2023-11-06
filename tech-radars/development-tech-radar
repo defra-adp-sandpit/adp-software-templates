@@ -41,10 +41,31 @@
             "id": "hold",
             "name": "HOLD",
             "color": "#E09B96",
-            "description": "We don’t want to further invest in this technology or we evaluated it and we don’t see it as beneficial for the company. Teams should not use it in new projects and should plan on migrating to a supported alternative if they use it for historical reasons. For broadly adopted technologies, the Radar should refer to a migration path to a supported alternative."
+            "description": "We don't want to further invest in this technology or we evaluated it and we don't see it as beneficial for the company. Teams should not use it in new projects and should plan on migrating to a supported alternative if they use it for historical reasons. For broadly adopted technologies, the Radar should refer to a migration path to a supported alternative."
         }
     ],
     "entries": [
-    
+        {
+            "id": "typescript",
+            "title": "Typescript",
+            "description": "Long description for Typescript",
+            "key": "typescript",
+            "url": "#",
+            "quadrant": "frameworks",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-02-06",
+                    "description": "Long description for trial"
+                },
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-02-08",
+                    "description": "Long description for adopt"
+                }
+            ]
+        }
     ]
 }
