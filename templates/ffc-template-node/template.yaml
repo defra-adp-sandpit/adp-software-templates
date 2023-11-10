@@ -101,6 +101,32 @@ spec:
                 github:
                   - workflow
 
+    - title: CI/CD
+      description: CI/CD pipelines will be created in Azure DevOps
+      required:
+        - adoOrganization
+        - adoProject
+        - serviceConnectionName
+        - pipelineFolder
+      properties:
+        adoOrganization:
+          title: Azure DevOps Organization
+          type: string
+          default: defragovuk
+        adoProject:
+          title: Azure DevOps Project
+          type: string
+          default: DEFRA-FFC
+        serviceConnectionName:
+          title: Service Connection Name
+          type: string
+          description: Name of the Service Connection used to connect to GitHub.
+        pipelineFolder:
+          title: Pipeline Folder
+          type: string
+          description: Folder path where the pipeline will be created
+          default: /
+
   steps:
     - id: template
       name: Fetch Skeleton + Template
@@ -120,7 +146,7 @@ spec:
           system: ${{ parameters.system }}
 
     - id: publish
-      name: Publish
+      name: Publish GitHub Repo
       action: publish:github
       input:
         allowedHosts: ["github.com"]
@@ -137,8 +163,112 @@ spec:
         gitAuthorName: ${{ user.entity.metadata.name }}
         requiredCommitSigning: true
 
+    - id: getServiceConnection
+      name: Get ADO Service Connection
+      action: defra:azure:serviceconnection:get
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        serviceConnectionName: ${{ parameters.serviceConnectionName }}
+        #token: 
+
+    - id: createPipeline
+      name: Create CI Pipeline
+      action: defra:azure:pipeline:create
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        folder: ADP/temp
+        repositoryName: ${{ parameters.repoUrl | projectSlug }}
+        yamlPath: .azuredevops/build.yaml
+        repositoryLocation: gitHub
+        serviceConnectionId: ${{ steps.getServiceConnection.output.serviceConnectionId }}
+        name: ${{ parameters.repoUrl | parseRepoUrl | pick('owner') }}.${{ parameters.component_id }}
+        #token: 
+
+    - id: permitSnyk
+      name: CI Pipeline - Permit Snyk
+      action: azure:pipeline:permit
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        resourceType: endpoint
+        resourceId: 663a60df-6aaa-4c2c-9fcd-ac4251732e87
+        authorized: true
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        #token: 
+
+    - id: permitSSV3
+      name: CI Pipeline - Permit SSV3 Service Connection
+      action: azure:pipeline:permit
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        resourceType: endpoint
+        resourceId: 8e5ae2d4-31c5-4031-9ca8-54cc7b4f22d9
+        authorized: true
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        #token: 
+
+    - id: permitGithub
+      name: CI Pipeline - Permit GitHub Service Connection
+      action: azure:pipeline:permit
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        resourceType: endpoint
+        resourceId: c7b55e44-8406-4bb3-bf47-c03c3bebe452
+        authorized: true
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        #token: 
+
+    - id: permitSonarCloud
+      name: CI Pipeline - Permit SonarCloud Service Connection
+      action: azure:pipeline:permit
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        resourceType: endpoint
+        resourceId: bbcf902e-d4d5-42ab-b175-f0f05954c528
+        authorized: true
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        #token: 
+
+    - id: permitVariableGroup
+      name: CI Pipeline - Permit Variable Group
+      action: azure:pipeline:permit
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        resourceType: variablegroup
+        resourceId: '449'
+        authorized: true
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        #token: 
+
+    - id: permitAgentGroup
+      name: CI Pipeline - Permit Agent Group
+      action: azure:pipeline:permit
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        project: ${{ parameters.adoProject }}
+        resourceType: queue
+        resourceId: '3072'
+        authorized: true
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        #token: 
+
+    - id: runPipeline
+      name: Run CI Pipeline
+      action: azure:pipeline:run
+      input:
+        organization: ${{ parameters.adoOrganization }}
+        pipelineId: ${{ steps.createPipeline.output.pipelineId }}
+        project: ${{ parameters.adoProject }}
+        #token: 
+
     - id: register
-      name: Register
+      name: Register in Software Catalog
       action: catalog:register
       input:
         repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
@@ -151,3 +281,5 @@ spec:
       - title: Open in catalog
         icon: catalog
         entityRef: ${{ steps.register.output.entityRef }}
+      - title: View CI Pipeline
+        url: ${{ steps.createPipeline.output.pipelineUrl }}
