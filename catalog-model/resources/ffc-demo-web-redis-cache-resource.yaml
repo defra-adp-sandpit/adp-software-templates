@@ -6,5 +6,5 @@ metadata:
   description: Redis cache for the ffc-demo-web service
 spec:
   type: cache
-  owner: fcp-payments
+  owner: "group:default/fcp-payments"
   system: ffc-demo-service
