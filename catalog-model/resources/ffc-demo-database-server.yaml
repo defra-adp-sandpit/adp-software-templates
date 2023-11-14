@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ffc-demo-database-server
+  description: Demo service database server
+  tags:
+    - postgresql
+spec:
+  type: database-server
+  owner: "group:default/fcp-payments"
+  system: ffc-demo-service

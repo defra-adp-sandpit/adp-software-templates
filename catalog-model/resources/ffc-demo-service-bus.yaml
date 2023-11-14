@@ -22,7 +22,8 @@ spec:
   type: message-queue
   owner: "group:default/fcp-payments"
   system: ffc-demo-service
-  dependsOn: ffc-demo-service-bus
+  dependsOn: 
+    - ffc-demo-service-bus
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -36,7 +37,8 @@ spec:
   type: message-queue
   owner: "group:default/fcp-payments"
   system: ffc-demo-service
-  dependsOn: ffc-demo-service-bus
+  dependsOn:
+    - ffc-demo-service-bus
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -50,7 +52,8 @@ spec:
   type: message-topic
   owner: "group:default/fcp-payments"
   system: ffc-demo-service
-  dependsOn: ffc-demo-service-bus
+  dependsOn:
+    - ffc-demo-service-bus
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -64,4 +67,5 @@ spec:
   type: message-topic
   owner: "group:default/fcp-payments"
   system: ffc-demo-service
-  dependsOn: ffc-demo-service-bus
+  dependsOn:
+    - ffc-demo-service-bus
