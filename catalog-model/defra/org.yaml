@@ -23,6 +23,7 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
+    - ./adp.yaml
     - ./fcp.yaml
     - ./fcp-payments.yaml
     - ./fcp-grants.yaml

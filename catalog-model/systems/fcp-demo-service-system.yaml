@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: fcp-demo-service
+  description: Exemplar services in the FCP platform
+  tags:
+    - FCP
+spec:
+  owner: "group:default/fcp-demo"
+  domain: fcp-demo

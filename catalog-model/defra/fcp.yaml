@@ -6,4 +6,4 @@ metadata:
 spec:
   type: programme
   parent: defra
-  children: [fcp-grants, fcp-payments, fcp-documents, fcp-vet-visits]
+  children: [fcp-grants, fcp-payments, fcp-documents, fcp-vet-visits, fcp-demo]
