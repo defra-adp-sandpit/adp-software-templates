@@ -3,4 +3,4 @@ kind: Location
 metadata:
   name: example-components
   description: A collection of all Backstage example components
-spec:
+spec: {}
