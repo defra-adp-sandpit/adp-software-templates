@@ -29,3 +29,4 @@ spec:
     - ./fcp-grants.yaml
     - ./fcp-documents.yaml
     - ./fcp-vet-visits.yaml
+    - ./fcp-demo.yaml
