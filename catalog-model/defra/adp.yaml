@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: adp
+  description: Azure Developer Platform
+spec:
+  type: team
+  profile:
+    displayName: ADP
+    email: adp@defra.gov.uk
+    picture: https://avatars.githubusercontent.com/u/5528822?s=200&v=4
+  parent: fcp
+  children: []
