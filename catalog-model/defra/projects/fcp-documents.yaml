@@ -9,5 +9,5 @@ spec:
     displayName: FCP Documents
     email: team-d@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-d@example.com.svg?background=%23fff&margin=25
-  parent: fcp
+  parent: farming-countryside-programme
   children: []
