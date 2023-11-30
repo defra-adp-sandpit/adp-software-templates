@@ -7,7 +7,6 @@ spec:
   type: team
   profile:
     displayName: FCP Demo
-    email: fcp.demo@defra.gov.uk
     picture: https://avatars.githubusercontent.com/u/5528822?s=200&v=4
   parent: farming-countryside-programme
   children: []

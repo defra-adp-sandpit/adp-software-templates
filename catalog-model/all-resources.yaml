@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-resources
-  description: A collection of all Backstage example resources
+  name: all-resources
+  description: Common resources defined as part of the baseline catalog.
 spec:
   targets:
     - ./resources/dbserver-adpdbsps01.yaml

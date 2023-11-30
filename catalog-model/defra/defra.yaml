@@ -13,7 +13,7 @@ spec:
   profile:
     displayName: DEFRA
     picture: https://avatars.githubusercontent.com/u/5528822?s=200&v=4
-  children: [environment-agency, animal-plant-health-agency, rural-payments-agency, natural-england, marine-maritime-organisation]
+  children: [environment-agency, animal-plant-health-agency, rural-payments-agency, natural-england, marine-management-organisation]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
