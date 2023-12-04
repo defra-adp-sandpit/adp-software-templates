@@ -6,6 +6,6 @@ metadata:
   tags:
     - postgresql
 spec:
-  type: databaseServer
+  type: database-server
   owner: "group:default/adp"
   system: adp-shared-services

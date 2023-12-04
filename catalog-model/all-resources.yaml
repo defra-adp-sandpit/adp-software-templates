@@ -8,3 +8,5 @@ spec:
     - ./resources/dbserver-adpdbsps01.yaml
     - ./resources/rediscache-ADPINFRD01.yaml
     - ./resources/servicebus-ADPINFSB01.yaml
+    - ./resources/applicationinsights-ADPINFAI01.yaml
+    - ./resources/storageaccount-adpinfst01.yaml
