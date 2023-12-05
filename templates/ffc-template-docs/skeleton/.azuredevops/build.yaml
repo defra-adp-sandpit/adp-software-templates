@@ -38,12 +38,12 @@ resources:
 extends:
   template: /pipelines/common-app-build.yaml@DEFRA-ADPPipelineCommon
   parameters:
-    projectName: "FFCTemplateNode"
+    projectName: "FFCTemplateDocs"
     deployFromFeature: {% raw %}${{ parameters.deployFromFeature }}{% endraw %}
-    appBuildConfig:
-      appFrameworkType: "nodejs"    
-      projectPath: "./package.json"
-      manifestPath: "./package.json"
-      imageRepoName: "${{ values.project_name }}"
-    appTestConfig:
-      testFilePath: "./docker-compose.test.yaml"
+    # appBuildConfig:
+    #   appFrameworkType: "nodejs"    
+    #   projectPath: "./package.json"
+    #   manifestPath: "./package.json"
+    #   imageRepoName: "${{ values.project_name }}"
+    # appTestConfig:
+    #   testFilePath: "./docker-compose.test.yaml"
