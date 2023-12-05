@@ -15,6 +15,7 @@ metadata:
   description: Projects delivered by the Farming and Countryside Programme.
 spec:
   targets:
+    - ../projects/fcp-adp.yaml
     - ../projects/fcp-payments.yaml
     - ../projects/fcp-grants.yaml
     - ../projects/fcp-documents.yaml
