@@ -5,4 +5,4 @@ metadata:
   description: References to organisation entities to display in the Catalog.
 spec:
   targets:
-    - ./defra/org.yaml
+    - ./defra/defra.yaml

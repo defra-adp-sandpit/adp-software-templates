@@ -22,7 +22,6 @@ metadata:
   description: Arms Length Bodies under the DEFRA organisation.
 spec:
   targets:
-    - ./adp.yaml
     - ./arms-length-bodies/environment-agency.yaml
     - ./arms-length-bodies/animal-plant-health-agency.yaml
     - ./arms-length-bodies/rural-payments-agency.yaml
