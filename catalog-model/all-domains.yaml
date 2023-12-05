@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-domains
-  description: A collection of all Backstage example domains
+  name: all-domains
+  description: Common domains defined as part of the baseline catalog.
 spec:
   targets:
     - ./domains/fcp-demo-domain.yaml
