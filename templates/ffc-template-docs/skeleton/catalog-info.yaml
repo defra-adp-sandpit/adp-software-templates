@@ -1,17 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{values.component_id | dump}}
-  {%- if values.description %}
-  description: ${{values.description | dump}}
-  {%- endif %}
+  name: backstage-demo-techdocs
+  description: "Test docs repo"
   annotations:
-    github.com/project-slug: ${{values.repo_project_slug}}
+    github.com/project-slug: defra-adp-sandpit/backstage-demo-techdocs
 spec:
-  type: ${{ values.component_type }}
-  lifecycle: ${{ values.component_lifecycle }}
-  owner: ${{values.owner | dump}}
-  {%- if values.system %}
-  system: ${{ values.system }}
-  {%- endif %}
-  
+  type: backend
+  lifecycle: alpha
+  owner: "group:default/fcp-grants"
+  system: system:default/adp-shared-services
