@@ -7,9 +7,11 @@ metadata:
   tags:
     - techdocs
     - fcp
+    - azureBlobStorage
+
 spec:
   owner: fcp
-  type: service
+  type: documentation 
 
   parameters:
     - title: Component Information
