@@ -6,16 +6,20 @@
             "name": "Infrastructure"
         },
         {
-            "id": "frameworks",
-            "name": "Frameworks"
+            "id": "languagesAndFrameworks",
+            "name": "Languages & Frameworks"
         },
         {
-            "id": "languages",
-            "name": "Languages"
+            "id": "testTooling",
+            "name": "Test Tooling"
         },
         {
-            "id": "process",
-            "name": "Process"
+            "id": "Tooling",
+            "name": "Tooling"
+        },
+        {
+            "id": "observability",
+            "name": "Observability"
         }
     ],
     "rings": [
@@ -51,18 +55,12 @@
             "description": "Long description for Typescript",
             "key": "typescript",
             "url": "#typescript",
-            "quadrant": "languages",
+            "quadrant": "languagesAndFrameworks",
             "timeline": [
                 {
                     "moved": 0,
-                    "ringId": "trial",
-                    "date": "2022-02-06",
-                    "description": "Long description for trial"
-                },
-                {
-                    "moved": 1,
                     "ringId": "adopt",
-                    "date": "2022-02-08",
+                    "date": "2024-01-01",
                     "description": "Long description for adopt"
                 }
             ]
@@ -73,18 +71,12 @@
             "description": "Long description for Javascript",
             "key": "javascript",
             "url": "#javascript",
-            "quadrant": "languages",
+            "quadrant": "languagesAndFrameworks",
             "timeline": [
                 {
                     "moved": 0,
-                    "ringId": "trial",
-                    "date": "2022-02-06",
-                    "description": "Long description for trial"
-                },
-                {
-                    "moved": 1,
                     "ringId": "adopt",
-                    "date": "2022-02-08",
+                    "date": "2024-01-01",
                     "description": "Long description for adopt"
                 }
             ]
@@ -95,18 +87,12 @@
             "description": "Long description for .NET",
             "key": "dotnet",
             "url": "#dotnet",
-            "quadrant": "languages",
+            "quadrant": "languagesAndFrameworks",
             "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "trial",
-                    "date": "2022-02-06",
-                    "description": "Long description for trial"
-                },
                 {
                     "moved": 1,
                     "ringId": "adopt",
-                    "date": "2022-02-08",
+                    "date": "2024-01-01",
                     "description": "Long description for adopt"
                 }
             ],
@@ -116,6 +102,82 @@
                     "url": "https://dotnet.microsoft.com/"
                 }
             ]
-        }
+        },
+        {
+            "id": "node",
+            "title": "Node.js",
+            "description": "Long description for Node.js",
+            "key": "node",
+            "url": "#node",
+            "quadrant": "languagesAndFrameworks",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Node.js",
+                    "url": "https://nodejs.org/en"
+                }
+            ]
+        },
+        {
+            "id": "hapi",
+            "title": "Hapi.js",
+            "description": "Long description for Hapi.js",
+            "key": "hapi",
+            "url": "#hapi",
+            "quadrant": "languagesAndFrameworks",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ]
+        },
+        {
+            "id": "npm",
+            "title": "NPM",
+            "description": "Long description for NPM",
+            "key": "npm",
+            "url": "#npm",
+            "quadrant": "languagesAndFrameworks",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to NPM",
+                    "url": "https://www.npmjs.com/"
+                }
+            ]
+        },
+        {
+            "id": "python",
+            "title": "Python",
+            "description": "Long description for Python",
+            "key": "python",
+            "url": "#python",
+            "quadrant": "languagesAndFrameworks",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ]
+        }   
     ]
 }
