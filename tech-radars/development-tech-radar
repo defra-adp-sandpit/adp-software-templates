@@ -6,7 +6,7 @@
             "name": "Languages & Frameworks"
         },
         {
-            "id": "Tooling",
+            "id": "tooling",
             "name": "Tooling"
         },
         {            
@@ -193,7 +193,7 @@
             "description": "NuGet is the package manager for .NET. The NuGet client tools provide the ability to produce and consume packages. The NuGet Gallery is the central package repository used by all package authors and consumers.",
             "key": "nuget",
             "url": "#nuget",
-            "quadrant": "Tooling",
+            "quadrant": "tooling",
             "timeline": [
                 {
                     "moved": 0,
@@ -215,7 +215,7 @@
             "description": "Docker provides a suite of development tools, services, trusted content, and automations, used individually or together, to accelerate the delivery of secure applications.",
             "key": "Docker",
             "url": "#docker",
-            "quadrant": "Tooling",
+            "quadrant": "tooling",
             "timeline": [
                 {
                     "moved": 0,
