@@ -432,7 +432,7 @@
         {
             "id": "pactBroker",
             "title": "Pact Broker",
-            "description": ".",
+            "description": "The Pact Broker is an application for sharing consumer driven contracts and verification results.",
             "key": "pactBroker",
             "url": "#pactBroker",
             "quadrant": "tooling",
@@ -447,7 +447,7 @@
             "links": [
                 {
                     "title": "Link to Pact Broker",
-                    "url": ""
+                    "url": "https://docs.pact.io/pact_broker"
                 }
             ]
         },
@@ -542,7 +542,7 @@
         {
             "id": "jMeter",
             "title": "JMeter",
-            "description": "",
+            "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance.",
             "key": "jMeter",
             "url": "#jMeter",
             "quadrant": "tooling",
@@ -557,7 +557,7 @@
             "links": [
                 {
                     "title": "Link to JMeter",
-                    "url": ""
+                    "url": "https://jmeter.apache.org/"
                 }
             ]
         },
@@ -652,7 +652,7 @@
         {
             "id": "anchorEngine",
             "title": "Anchor Engine",
-            "description": "",
+            "description": "The Anchore Engine is an open source project that provides a centralized service for inspection, analysis and certification of container images.",
             "key": "anchorEngine",
             "url": "#anchorEngine",
             "quadrant": "tooling",
@@ -667,7 +667,7 @@
             "links": [
                 {
                     "title": "Link to Anchor Engine",
-                    "url": ""
+                    "url": "https://anchore.com/blog/anchore-engine/"
                 }
             ]
         },
@@ -806,7 +806,7 @@
         {
             "id": "azureSQL",
             "title": "Azure CosmosDB (SQL)",
-            "description": "",
+            "description": "Fully managed, distributed NoSQL & relational database for modern app development. High performance, high availability, and support for open-source PostgreSQL, MongoDB, and Apache Cassandra.",
             "key": "azureSQL",
             "url": "#azureSQL",
             "quadrant": "tooling",
@@ -821,7 +821,7 @@
             "links": [
                 {
                     "title": "Link to Azure CosmosDB (SQL)",
-                    "url": ""
+                    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/"
                 }
             ]
         },
@@ -1379,7 +1379,7 @@
         {
             "id": "prometheus",
             "title": "Prometheus",
-            "description": "",
+            "description": "Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.",
             "key": "prometheus",
             "url": "#prometheus",
             "quadrant": "observability",
@@ -1394,7 +1394,7 @@
             "links": [
                 {
                     "title": "Link to Prometheuss",
-                    "url": ""
+                    "url": "https://prometheus.io/"
                 }
             ]
         },
