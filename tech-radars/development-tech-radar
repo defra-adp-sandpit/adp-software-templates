@@ -1,13 +1,13 @@
 {
     "title": "Development Technology Radar for Defra's Azure Developer Platform",
     "quadrants": [
-        {            
-            "id": "infrastructure",
-            "name": "Infrastructure"
-        },
         {
             "id": "observability",
             "name": "Observability"
+        },
+        {            
+            "id": "infrastructure",
+            "name": "Infrastructure"
         },
         {
             "id": "languagesAndFrameworks",
