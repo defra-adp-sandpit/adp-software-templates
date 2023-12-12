@@ -362,29 +362,7 @@
                     "url": "https://azure.microsoft.com/en-gb/products/devops/boards"
                 }
             ]
-        },
-        {
-            "id": "jenkins",
-            "title": "Jenkins",
-            "description": "Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
-            "key": "jenkins",
-            "url": "#jenkins",
-            "quadrant": "tooling",
-            "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "hold",
-                    "date": "2024-01-01",
-                    "description": "Long description for hold"
-                }
-            ],
-            "links": [
-                {
-                    "title": "Link to Jenkins",
-                    "url": "https://www.jenkins.io/"
-                }
-            ]
-        },
+        },   
         {
             "id": "azurePipelines",
             "title": "Azure Pipelines",
@@ -426,28 +404,6 @@
                 {
                     "title": "Link to Jest",
                     "url": "https://jestjs.io/"
-                }
-            ]
-        },
-        {
-            "id": "xUnit",
-            "title": "xUnit",
-            "description": "xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework.",
-            "key": "xUnit",
-            "url": "#xUnit",
-            "quadrant": "tooling",
-            "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "assess",
-                    "date": "2024-01-01",
-                    "description": "Long description for assess"
-                }
-            ],
-            "links": [
-                {
-                    "title": "Link to xUnit",
-                    "url": "https://xunit.net/"
                 }
             ]
         },
@@ -716,28 +672,6 @@
             ]
         },
         {
-            "id": "azureRepos",
-            "title": "Azure Repos",
-            "description": "Free private Git repositories, pull requests, and code search.",
-            "key": "azureRepos",
-            "url": "#azureRepos",
-            "quadrant": "tooling",
-            "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "hold",
-                    "date": "2024-01-01",
-                    "description": "Long description for adopt"
-                }
-            ],
-            "links": [
-                {
-                    "title": "Link to Azure Repos",
-                    "url": "https://azure.microsoft.com/en-gb/products/devops/repos"
-                }
-            ]
-        },
-        {
             "id": "github",
             "title": "GitHub",
             "description": "GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.",
@@ -910,6 +844,72 @@
                 {
                     "title": "Link to Azure CosmosDB (Mongo)",
                     "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction"
+                }
+            ]
+        },
+        {
+            "id": "xUnit",
+            "title": "xUnit",
+            "description": "xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework.",
+            "key": "xUnit",
+            "url": "#xUnit",
+            "quadrant": "tooling",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to xUnit",
+                    "url": "https://xunit.net/"
+                }
+            ]
+        },
+        {
+            "id": "jenkins",
+            "title": "Jenkins",
+            "description": "Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
+            "key": "jenkins",
+            "url": "#jenkins",
+            "quadrant": "tooling",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2024-01-01",
+                    "description": "Long description for hold"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Jenkins",
+                    "url": "https://www.jenkins.io/"
+                }
+            ]
+        },
+        {
+            "id": "azureRepos",
+            "title": "Azure Repos",
+            "description": "Free private Git repositories, pull requests, and code search.",
+            "key": "azureRepos",
+            "url": "#azureRepos",
+            "quadrant": "tooling",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Repos",
+                    "url": "https://azure.microsoft.com/en-gb/products/devops/repos"
                 }
             ]
         },
