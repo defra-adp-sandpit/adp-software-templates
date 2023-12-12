@@ -1025,7 +1025,7 @@
         },
         {
             "id": "AzurePostgreSQL",
-            "title": "Azure PostgreSQL (flexible Server)",
+            "title": "Azure PostgreSQL (Flexible Server)",
             "description": "A registry of Docker and Open Container Initiative (OCI) images, with support for all OCI artifacts.",
             "key": "AzurePostgreSQL",
             "url": "#AzurePostgreSQL",
@@ -1040,7 +1040,7 @@
             ],
             "links": [
                 {
-                    "title": "Link to Azure PostgreSQL (flexible Server)",
+                    "title": "Link to Azure PostgreSQL (Flexible Server)",
                     "url": "https://azure.microsoft.com/en-gb/products/container-registry"
                 }
             ]
