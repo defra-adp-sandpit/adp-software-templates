@@ -586,7 +586,7 @@
         {
             "id": "owaspZap",
             "title": "OWASP Zap",
-            "description": "",
+            "description": "Zed Attack Policy (ZAP) is a free and open source web scanner. OWASP Benchmark is a Java test suite designed to verify the speed and accuracy of vulnerability detection tools.",
             "key": "owaspZap",
             "url": "#owaspZap",
             "quadrant": "tooling",
@@ -601,14 +601,14 @@
             "links": [
                 {
                     "title": "Link to OWASP Zap",
-                    "url": ""
+                    "url": " https://www.zaproxy.org/"
                 }
             ]
         },
         {
             "id": "axe",
             "title": "AXE",
-            "description": "",
+            "description": "Axe is used to help make websites, mobile apps and digital content accessible.",
             "key": "axe",
             "url": "#axe",
             "quadrant": "tooling",
@@ -623,7 +623,7 @@
             "links": [
                 {
                     "title": "Link to AXE",
-                    "url": ""
+                    "url": "https://www.deque.com/axe/"
                 }
             ]
         },
@@ -784,7 +784,7 @@
         {
             "id": "appReg's",
             "title": "App Reg's",
-            "description": "",
+            "description": "Registering your application establishes a trust relationship between your app and the Microsoft identity platform. ",
             "key": "appReg's",
             "url": "#appReg's",
             "quadrant": "tooling",
@@ -799,7 +799,7 @@
             "links": [
                 {
                     "title": "Link to App Reg's",
-                    "url": ""
+                    "url": "https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app"
                 }
             ]
         },
@@ -1152,7 +1152,7 @@
             "links": [
                 {
                     "title": "Link to Entra ID workload Identity",
-                    "url": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-workload-id"
+                    "url": "https://learn.microsoft.com/en-us/azure/aks/workload-identity-overview?tabs=dotnet"
                 }
             ]
         },
@@ -1285,28 +1285,6 @@
                 {
                     "title": "Link to Azure Prompt Flow",
                     "url": "https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/concept-flows?view=azureml-api-2"
-                }
-            ]
-        },
-        {
-            "id": "aAADPodIdentity",
-            "title": "AAD Pod Identity",
-            "description": "",
-            "key": "aAADPodIdentity",
-            "url": "#aAADPodIdentity",
-            "quadrant": "infrastructure",
-            "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "hold",
-                    "date": "2024-01-01",
-                    "description": "We don't want to further invest in this technology or we evaluated it and we don't see it as beneficial for the organisation. Teams should not use it in new projects and should plan on migrating to a supported alternative if they use it for historical reasons. For broadly adopted technologies, the Radar should refer to a migration path to a supported alternative."
-                }
-            ],
-            "links": [
-                {
-                    "title": "Link to AAD Pod Identity",
-                    "url": ""
                 }
             ]
         },
