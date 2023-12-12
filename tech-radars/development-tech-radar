@@ -912,6 +912,205 @@
                     "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction"
                 }
             ]
+        },
+        {
+            "id": "azureKubernetesService",
+            "title": "Azure Kubernetes Service",
+            "description": "Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure.",
+            "key": "azureKubernetesService",
+            "url": "#azureKubernetesService",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Kubernetes Service",
+                    "url": "https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes"
+                }
+            ]
+        },
+        {
+            "id": "FluxCD",
+            "title": "Flux CD",
+            "description": "Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible.",
+            "key": "FluxCD",
+            "url": "#FluxCD",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Flux CD",
+                    "url": "https://fluxcd.io/"
+                }
+            ]
+        },
+        {
+            "id": "azureServiceOperator",
+            "title": "Azure Service Operator",
+            "description": "Azure Service Operator (ASO) allows you to deploy and maintain a wide variety of Azure Resources using the Kubernetes tooling you already know and use.",
+            "key": "azureServiceOperator",
+            "url": "#azureServiceOperator",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Service Operator",
+                    "url": "/azure-service-operator/"
+                }
+            ]
+        },
+        {
+            "id": "azureContainerRegistry",
+            "title": "Azure Container Registry",
+            "description": "A registry of Docker and Open Container Initiative (OCI) images, with support for all OCI artifacts.",
+            "key": "azureContainerRegistry",
+            "url": "#azureContainerRegistry",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Container Registry",
+                    "url": "https://azure.microsoft.com/en-gb/products/container-registry"
+                }
+            ]
+        },
+        {
+            "id": "azureContainerRegistry",
+            "title": "Azure Container Registry",
+            "description": "A registry of Docker and Open Container Initiative (OCI) images, with support for all OCI artifacts.",
+            "key": "azureContainerRegistry",
+            "url": "#azureContainerRegistry",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Container Registry",
+                    "url": "https://azure.microsoft.com/en-gb/products/container-registry"
+                }
+            ]
+        },
+        {
+            "id": "AzurePostgreSQL",
+            "title": "Azure PostgreSQL (flexible Server)",
+            "description": "A registry of Docker and Open Container Initiative (OCI) images, with support for all OCI artifacts.",
+            "key": "AzurePostgreSQL",
+            "url": "#AzurePostgreSQL",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure PostgreSQL (flexible Server)",
+                    "url": "https://azure.microsoft.com/en-gb/products/container-registry"
+                }
+            ]
+        },
+        {
+            "id": "azureServiceBus",
+            "title": "Azure Service Bus",
+            "description": "Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).",
+            "key": "azureServiceBus",
+            "url": "#azureServiceBus",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Service Bus",
+                    "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview"
+                }
+            ]
+        },
+        {
+            "id": "azureEventHubs",
+            "title": "Azure Event Hubs",
+            "description": "Azure Event Hubs is a cloud native data streaming service that can stream millions of events per second, with low latency, from any source to any destination.",
+            "key": "azureEventHubs",
+            "url": "#azureEventHubs",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Event Hubs",
+                    "url": "https://learn.microsoft.com/en-us/azure/event-hubs/"
+                }
+            ]
+        },
+        {
+            "id": "azureAppConfiguration",
+            "title": "Azure App Configuration",
+            "description": "Azure App Configuration provides a service to centrally manage application settings and feature flags. ",
+            "key": "azureAppConfiguration",
+            "url": "#azureAppConfiguration",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure App Configuration",
+                    "url": "https://learn.microsoft.com/en-us/azure/azure-app-configuration/overview"
+                }
+            ]
         }
+
     ]
 }
