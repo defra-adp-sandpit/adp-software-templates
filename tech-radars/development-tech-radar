@@ -1330,6 +1330,116 @@
                     "url": "https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/concept-flows?view=azureml-api-2"
                 }
             ]
+        },
+        {
+            "id": "applicationInsights",
+            "title": "Application Insights",
+            "description": "Azure Monitor Application Insights, a feature of Azure Monitor, excels in Application Performance Management (APM) for live web applications.",
+            "key": "applicationInsights",
+            "url": "#applicationInsights",
+            "quadrant": "observability",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Application Insights",
+                    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+                }
+            ]
+        },
+        {
+            "id": "googleAnalytics",
+            "title": "Google Analytics",
+            "description": "Google Analytics 4 is an analytics service that enables you to measure traffic and engagement across your websites and apps. This documentation provides implementation instructions and reference materials geared towards a developer audience.",
+            "key": "googleAnalytics",
+            "url": "#googleAnalytics",
+            "quadrant": "observability",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Google Analytics",
+                    "url": "https://developers.google.com/analytics"
+                }
+            ]
+        },
+        {
+            "id": "prometheus",
+            "title": "Prometheus",
+            "description": "",
+            "key": "prometheus",
+            "url": "#prometheus",
+            "quadrant": "observability",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Prometheuss",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "grafana",
+            "title": "Grafana",
+            "description": "Grafana is the open source analytics & monitoring solution for every database.",
+            "key": "grafana",
+            "url": "#grafana",
+            "quadrant": "observability",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Grafana",
+                    "url": "https://grafana.com/"
+                }
+            ]
+        },
+        {
+            "id": "azureMonitor",
+            "title": "Azure Monitor",
+            "description": "Azure Monitor is a comprehensive monitoring solution for collecting, analyzing, and responding to monitoring data from your cloud and on-premises environments. ",
+            "key": "azureMonitor",
+            "url": "#azureMonitor",
+            "quadrant": "observability",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Monitor",
+                    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/"
+                }
+            ]
         }
     ]
 }
