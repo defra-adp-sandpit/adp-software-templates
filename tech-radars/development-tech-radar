@@ -1092,7 +1092,7 @@
         {
             "id": "azureAppConfiguration",
             "title": "Azure App Configuration",
-            "description": "Azure App Configuration provides a service to centrally manage application settings and feature flags. ",
+            "description": "Azure App Configuration provides a service to centrally manage application settings and feature flags.  ",
             "key": "azureAppConfiguration",
             "url": "#azureAppConfiguration",
             "quadrant": "infrastructure",
@@ -1110,7 +1110,226 @@
                     "url": "https://learn.microsoft.com/en-us/azure/azure-app-configuration/overview"
                 }
             ]
+        },
+        {
+            "id": "azureKeyVault",
+            "title": "Azure Key Vault",
+            "description": "Azure Key Vault is a cloud service for securely storing and accessing secrets.",
+            "key": "azureKeyVault",
+            "url": "#azureKeyVault",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Key Vault",
+                    "url": "https://learn.microsoft.com/en-us/azure/key-vault/"
+                }
+            ]
+        },
+        {
+            "id": "azureFunctions",
+            "title": "Azure Functions",
+            "description": "Azure Functions is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs.",
+            "key": "azureFunctions",
+            "url": "#azureFunctions",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2024-01-01",
+                    "description": "Long description for hold"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Functions",
+                    "url": "https://learn.microsoft.com/en-us/azure/azure-functions/"
+                }
+            ]
+        },
+        {
+            "id": "azureStorage",
+            "title": "Azure Storage",
+            "description": "The Azure Storage platform is Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud.",
+            "key": "azureStorage",
+            "url": "#azureStorage",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Functions",
+                    "url": "https://learn.microsoft.com/en-us/azure/storage/"
+                }
+            ]
+        },
+        {
+            "id": "aAADPodIdentity",
+            "title": "AAD Pod Identity",
+            "description": "",
+            "key": "aAADPodIdentity",
+            "url": "#aAADPodIdentity",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2024-01-01",
+                    "description": "Long description for hold"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to AAD Pod Identity",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "entraIDworkloadIdentity",
+            "title": "Entra ID workload Identity",
+            "description": "Workload identities are identities granted to apps or services that need to access and communicate with other services.",
+            "key": "entraIDworkloadIdentity",
+            "url": "#entraIDworkloadIdentity",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2024-01-01",
+                    "description": "Long description for adopt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Entra ID workload Identity",
+                    "url": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-workload-id"
+                }
+            ]
+        },
+        {
+            "id": "AzureAIStudio",
+            "title": "Azure AI Studio",
+            "description": "Build, evaluate, and deploy your AI solutions all within one space.",
+            "key": "AzureAIStudio",
+            "url": "#AzureAIStudio",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure AI Studio",
+                    "url": "https://ai.azure.com/"
+                }
+            ]
+        },
+        {
+            "id": "azureMachineLearning",
+            "title": "Azure Machine Learning",
+            "description": "Azure Machine Learning empowers data scientists and developers to build, deploy, and manage high-quality models faster and with confidence.",
+            "key": "azureMachineLearning",
+            "url": "#azureMachineLearning",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Machine Learning",
+                    "url": "https://azure.microsoft.com/en-gb/products/machine-learning"
+                }
+            ]
+        },
+        {
+            "id": "azureCognitiveServices",
+            "title": "Azure Cognitive Services",
+            "description": "Azure Cognitive Services is a set of cloud-based APIs that you can use in AI applications and data flows.",
+            "key": "azureCognitiveServices",
+            "url": "#azureCognitiveServices",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Cognitive Services",
+                    "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/cognitive-services"
+                }
+            ]
+        },
+        {
+            "id": "azureAISearch",
+            "title": "Azure AI Search",
+            "description": "Azure AI Search provides secure information retrieval at scale over user-owned content in traditional and conversational search applications.",
+            "key": "azureAISearch",
+            "url": "#azureAISearch",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure AI Search",
+                    "url": "https://learn.microsoft.com/en-us/azure/search/"
+                }
+            ]
+        },
+        {
+            "id": "azurePromptFlow",
+            "title": "Azure Prompt Flow",
+            "description": "In Azure Machine Learning prompt flow, users have the capability to develop a LLM-based AI application by engaging in the stages of developing, testing, tuning, and deploying a flow.",
+            "key": "azurePromptFlow",
+            "url": "#azurePromptFlow",
+            "quadrant": "infrastructure",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2024-01-01",
+                    "description": "Long description for assess"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Azure Prompt Flow",
+                    "url": "https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/concept-flows?view=azureml-api-2"
+                }
+            ]
         }
-
     ]
 }
