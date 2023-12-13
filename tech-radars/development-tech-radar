@@ -123,14 +123,14 @@
             "links": [
                 {
                     "title": "Link to Node.js",
-                    "url": "https://nodejs.org/en"
+                    "url": "https://nodejs.org/en/about"
                 }
             ]
         },
         {
             "id": "hapi",
             "title": "Hapi.js",
-            "description": "Long description for Hapi.js",
+            "description": "Provides true extensibility and customization safely and predictably",
             "key": "hapi",
             "url": "#hapi",
             "quadrant": "languagesAndFrameworks",
@@ -140,6 +140,12 @@
                     "ringId": "adopt",
                     "date": "2024-01-01",
                     "description": "This technology is recommended for use by the majority of teams with a specific use case."
+                }
+            ],
+            "links": [
+                {
+                    "title": "Link to Hapi.js",
+                    "url": "https://hapi.dev/"
                 }
             ]
         },
@@ -601,7 +607,7 @@
             "links": [
                 {
                     "title": "Link to OWASP Zap",
-                    "url": " https://www.zaproxy.org/"
+                    "url": "https://www.zaproxy.org/"
                 }
             ]
         },
@@ -696,7 +702,7 @@
         {
             "id": "sonarCloud",
             "title": "SonarCloud",
-            "description": "GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.",
+            "description": "Enables your team to deliver clean code consistently and efficiently with a code review tool that easily integrates into the cloud DevOps platforms and extend your CI/CD workflow.",
             "key": "sonarCloud",
             "url": "#sonarCloud",
             "quadrant": "tooling",
@@ -805,7 +811,7 @@
         },
         {
             "id": "azureSQL",
-            "title": "Azure CosmosDB (SQL)",
+            "title": "Azure Cosmos DB (SQL)",
             "description": "Fully managed, distributed NoSQL & relational database for modern app development. High performance, high availability, and support for open-source PostgreSQL, MongoDB, and Apache Cassandra.",
             "key": "azureSQL",
             "url": "#azureSQL",
@@ -820,14 +826,14 @@
             ],
             "links": [
                 {
-                    "title": "Link to Azure CosmosDB (SQL)",
+                    "title": "Link to Azure Cosmos DB (SQL)",
                     "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/"
                 }
             ]
         },
         {
             "id": "azureMongo",
-            "title": "Azure CosmosDB (Mongo)",
+            "title": "Azure Cosmos DB (Mongo)",
             "description": "Azure Cosmos DB is a fully managed NoSQL and relational database for modern app development.",
             "key": "azureMongo",
             "url": "#azureMongo",
@@ -842,7 +848,7 @@
             ],
             "links": [
                 {
-                    "title": "Link to Azure CosmosDB (Mongo)",
+                    "title": "Link to Azure Cosmos DB (Mongo)",
                     "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction"
                 }
             ]
@@ -976,28 +982,6 @@
                 {
                     "title": "Link to Azure Service Operator",
                     "url": "/azure-service-operator/"
-                }
-            ]
-        },
-        {
-            "id": "azureContainerRegistry",
-            "title": "Azure Container Registry",
-            "description": "A registry of Docker and Open Container Initiative (OCI) images, with support for all OCI artifacts.",
-            "key": "azureContainerRegistry",
-            "url": "#azureContainerRegistry",
-            "quadrant": "infrastructure",
-            "timeline": [
-                {
-                    "moved": 0,
-                    "ringId": "adopt",
-                    "date": "2024-01-01",
-                    "description": "This technology is recommended for use by the majority of teams with a specific use case."
-                }
-            ],
-            "links": [
-                {
-                    "title": "Link to Azure Container Registry",
-                    "url": "https://azure.microsoft.com/en-gb/products/container-registry"
                 }
             ]
         },
