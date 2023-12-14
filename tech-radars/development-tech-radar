@@ -130,7 +130,7 @@
         {
             "id": "hapi",
             "title": "Hapi.js",
-            "description": "Provides true extensibility and customization safely and predictably",
+            "description": "Provides true extensibility and customization safely and predictably.",
             "key": "hapi",
             "url": "#hapi",
             "quadrant": "languagesAndFrameworks",
@@ -195,7 +195,7 @@
         },
         {
             "id": "nuget",
-            "title": "Nuget",
+            "title": "NuGet",
             "description": "NuGet is the package manager for .NET. The NuGet client tools provide the ability to produce and consume packages. The NuGet Gallery is the central package repository used by all package authors and consumers.",
             "key": "nuget",
             "url": "#nuget",
@@ -834,7 +834,7 @@
         {
             "id": "azureMongo",
             "title": "Azure Cosmos DB (Mongo)",
-            "description": "Azure Cosmos DB is a fully managed NoSQL and relational database for modern app development.",
+            "description": "Azure Cosmos DB is a fully managed NoSQL and relational database for modern app development. Azure Cosmos DB for MongoDB makes it easy to use Azure Cosmos DB as if it were a MongoDB database. ",
             "key": "azureMongo",
             "url": "#azureMongo",
             "quadrant": "tooling",
@@ -981,7 +981,7 @@
             "links": [
                 {
                     "title": "Link to Azure Service Operator",
-                    "url": "/azure-service-operator/"
+                    "url": "https://azure.github.io/azure-service-operator/"
                 }
             ]
         },
@@ -1025,7 +1025,7 @@
             "links": [
                 {
                     "title": "Link to Azure PostgreSQL (Flexible Server)",
-                    "url": "https://azure.microsoft.com/en-gb/products/container-registry"
+                    "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview"
                 }
             ]
         },
@@ -1112,18 +1112,18 @@
             ],
             "links": [
                 {
-                    "title": "Link to Azure Functions",
+                    "title": "Link to Azure Storage",
                     "url": "https://learn.microsoft.com/en-us/azure/storage/"
                 }
             ]
         },
        
         {
-            "id": "entraIDworkloadIdentity",
-            "title": "Entra ID workload Identity",
+            "id": "entraworkloadIdentity",
+            "title": "Microsoft Entra Workload ID",
             "description": "Workload identities are identities granted to apps or services that need to access and communicate with other services.",
-            "key": "entraIDworkloadIdentity",
-            "url": "#entraIDworkloadIdentity",
+            "key": "entraworkloadIdentity",
+            "url": "#entraworkloadIdentity",
             "quadrant": "infrastructure",
             "timeline": [
                 {
@@ -1135,7 +1135,7 @@
             ],
             "links": [
                 {
-                    "title": "Link to Entra ID workload Identity",
+                    "title": "Link to Microsoft Entra Workload ID",
                     "url": "https://learn.microsoft.com/en-us/azure/aks/workload-identity-overview?tabs=dotnet"
                 }
             ]
@@ -1319,7 +1319,7 @@
         {
             "id": "googleAnalytics",
             "title": "Google Analytics",
-            "description": "Google Analytics 4 is an analytics service that enables you to measure traffic and engagement across your websites and apps. This documentation provides implementation instructions and reference materials geared towards a developer audience.",
+            "description": "Google Analytics is an analytics service that enables you to measure traffic and engagement across your websites and apps.",
             "key": "googleAnalytics",
             "url": "#googleAnalytics",
             "quadrant": "observability",
@@ -1341,7 +1341,7 @@
         {
             "id": "prometheus",
             "title": "Prometheus",
-            "description": "Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.",
+            "description": "Prometheus is an open-source systems monitoring and alerting toolkit.",
             "key": "prometheus",
             "url": "#prometheus",
             "quadrant": "observability",
